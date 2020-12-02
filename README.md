@@ -1,7 +1,9 @@
 # KDimens Extensions
-___
 Kotlin Extensions for converting dimensions
 
+[![](https://jitpack.io/v/jianastrero/kdimens-extensions.svg)](https://jitpack.io/#jianastrero/kdimens-extensions)
+# Usage
+___
 ### PX to DP
 ```kotlin
 // Convert any Number(Int, Float, Double, Etc.) from PX to DP
@@ -26,7 +28,28 @@ Kotlin Extensions for converting dimensions
 14.pxOfSP
 ```
 
-## [LICENSE](LICENSE)
+# Installation
+___
+### Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+### Step 2. Add the dependency
+```groovy
+dependencies {
+    implementation 'com.github.jianastrero:kdimens-extensions:1.0'
+}
+```
+
+
+# [LICENSE](LICENSE)
+___
     MIT License
     
     Copyright (c) 2020 Jian James Astrero
