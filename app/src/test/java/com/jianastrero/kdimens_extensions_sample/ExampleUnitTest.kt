@@ -1,4 +1,4 @@
-package com.jianastrero.kdimens_extensions
+package com.jianastrero.kdimens_extensions_sample
 
 import org.junit.Test
 

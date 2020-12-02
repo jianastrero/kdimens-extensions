@@ -1,4 +1,4 @@
-package com.jianastrero.kdimens_extensions
+package com.jianastrero.kdimens_extensions_sample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.jianastrero.kdimens_extensions", appContext.packageName)
+        assertEquals("com.jianastrero.kdimens_extensions.test", appContext.packageName)
     }
 }
