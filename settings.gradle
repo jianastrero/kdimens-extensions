@@ -1,2 +1,3 @@
+include ':kdimens_extensions'
 include ':app'
 rootProject.name = "kdimens-extensions"
