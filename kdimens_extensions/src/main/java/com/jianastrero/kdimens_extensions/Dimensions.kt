@@ -12,4 +12,4 @@ val Number.sp: Number
     get() = toFloat() * Resources.getSystem().displayMetrics.scaledDensity
 
 val Number.pxOfSP: Number
-    get() = toFloat() * Resources.getSystem().displayMetrics.scaledDensity
+    get() = toFloat() / Resources.getSystem().displayMetrics.scaledDensity
